@@ -29,4 +29,8 @@ with open('pressure_partial.csv') as csv_file:
     print(f'Processed {line_count} lines.')
 print(len(pressures))
 print(biggestNumber)
+print("We need some output!")
 print(f'pressure is {pressures[0][0]} at {pressures[0][1]}' )
+
+for i in range(len(pressures)):
+  print(i,end=' ')
